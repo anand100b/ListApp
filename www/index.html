@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">     
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="themes/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+      
+       
+        <title>ListApp</title>
+    </head>
+</head>
+
+<body >
+    
+      
+            <div data-role="page">
+                <div data-role="header" style="text-align: center;">
+                 To do List 
+                </div>
+            </div>
+
+            <div id="listPage" class="inactivePage">
+                <div id="list"></div>
+            </div>
+      
+
+        <div id="addTask" class="inactivePage">
+            <form id="newForm" class="form" action="" method="post">
+                <div class="form-group" style="text-align: center;">
+                    <input type="text" id="inputTask" class="topcoat-text-input" name="inpTask" style="width: 80%;" value="">
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <input type="button" id="addTask" class="w3-button w3-pale-blue" style="width: 50%;" value="Add Task">
+                </div>
+            </form>
+        </div>
+
+   
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
